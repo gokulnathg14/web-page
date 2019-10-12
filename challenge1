@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1></h1>
+
+<form action="/action_page.php">
+  mail_id: <input type="text" name="fname"><br>
+  password: <input type="text" id="check"  value=""><br>
+
+ <!-- type="YOUR" id="CLUE" name="FOR" value="NEXT ROUND" value="IS" name="HERE"
+               yjqug swqvg ku kv    
+  -->
+ 
+  <button onclick="myFunction()">Submit</button>
+  <p id="demo"></p>
+  <script>
+    function myFunction() {
+  var x = document.getElementById("check").value;
+   if(x.length>0)
+   alert("Render to Caesar the things that are Caesar's; and to God the things that are God's.");
+   }
+</script>
+
+  
+</form>
+
+<p></p>
+
+</body>
+</html>
